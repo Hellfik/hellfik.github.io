@@ -251,6 +251,110 @@ body {
     max-width: 40%;
 }
 
+.percent {
+    position: relative;
+}
+
+.percent svg {
+    /* position: relative; */
+    display: block;
+    width: 160px;
+    height: 160px;
+    z-index: 1000;
+}
+
+.percent svg circle {
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke: #333;
+    stroke-width: 10;
+    stroke-linecap: round;
+    transform: translate(5px, 5px);
+}
+
+
+/* .percent svg circle:nth-child(2) {
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+} */
+
+.percent .number {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.card-container1 .percent svg circle:nth-child(2) {
+    stroke-dasharray: 440;
+    stroke-dashoffset: 44;
+    stroke: #ffb400
+}
+
+.card-container2 .percent svg circle:nth-child(2) {
+    stroke-dasharray: 440;
+    stroke-dashoffset: 66;
+    stroke: #ffb400
+}
+
+.card-container3 .percent svg circle:nth-child(2) {
+    stroke-dasharray: 440;
+    stroke-dashoffset: 88;
+    stroke: #ffb400
+}
+
+.card-container4 .percent svg circle:nth-child(2) {
+    stroke-dasharray: 440;
+    stroke-dashoffset: 123.2;
+    stroke: #ffb400
+}
+
+.card-container5 .percent svg circle:nth-child(2) {
+    stroke-dasharray: 440;
+    stroke-dashoffset: 140.8;
+    stroke: #ffb400
+}
+
+.card-container6 .percent svg circle:nth-child(2) {
+    stroke-dasharray: 440;
+    stroke-dashoffset: 110;
+    stroke: #ffb400
+}
+
+.card-container7 .percent svg circle:nth-child(2) {
+    stroke-dasharray: 440;
+    stroke-dashoffset: 198;
+    stroke: #ffb400
+}
+
+.card-container8 .percent svg circle:nth-child(2) {
+    stroke-dasharray: 440;
+    stroke-dashoffset: 61.6;
+    stroke: #ffb400
+}
+
+.card-container9 .percent svg circle:nth-child(2) {
+    stroke-dasharray: 440;
+    stroke-dashoffset: 44;
+    stroke: #ffb400
+}
+
+.card-container10 .percent svg circle:nth-child(2) {
+    stroke-dasharray: 440;
+    stroke-dashoffset: 66;
+    stroke: #ffb400
+}
+
+.card-container11 .percent svg circle:nth-child(2) {
+    stroke-dasharray: 440;
+    stroke-dashoffset: 105.6;
+    stroke: #ffb400
+}
+
 
 /******** MEDIA QUERIES **********/
 
