@@ -264,6 +264,9 @@ body {
         border-radius: 50%;
         border: 5px solid #252525;
     }
+    .intro-container div h1 {
+        font-size: 1.5em;
+    }
 }
 
 @media all and (min-width: 769px) {

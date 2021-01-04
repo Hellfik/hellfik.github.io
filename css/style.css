@@ -198,6 +198,7 @@ body {
 
 .about-list .value {
     font-weight: 600;
+    font-size: 16px;
 }
 
 .btn-download {
@@ -283,5 +284,8 @@ body {
     }
     .box-stats p {
         text-transform: capitalize;
+    }
+    .about-list .value {
+        font-size: 13px;
     }
 }
