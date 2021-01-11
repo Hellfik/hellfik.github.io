@@ -2,6 +2,7 @@ const btnHam = document.getElementById('menu-hamburger');
 const spans = document.querySelectorAll('#menu-hamburger span');
 const menuToggle = document.getElementById('toggled-menu');
 const pageWidth = document.documentElement.clientWidth;
+const loadScreen = document.getElementById('loadingScreen');
 let isToggled = false;
 
 btnHam.addEventListener('click', function() {
@@ -37,3 +38,7 @@ window.addEventListener("resize", displayWindowSize);
 
 // Calling the function for the first time
 displayWindowSize();
+
+window.addEventListener('load', function() {
+    loadScreen.style.display = "none";
+})
